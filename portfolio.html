@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html>
+    <title>
+        Nahin's Portfolio
+    </title>
+<head>
+   
+
+
+
+    <style>
+    
+    .picture{
+        width: 250px;
+        height: 250px;
+        border: 5px solid rgb(255, 255, 255);
+       
+    }
+    
+    body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(113, 248, 165);
+}
+
+.container{
+    background-color: #ffffff;
+    height: auto;
+    text-align: center;
+    width: 100%;
+   
+}
+
+header{
+    width: 100%;
+    height: 1000px;
+    background-color: purple;
+   
+    overflow: hidden;
+}
+
+#btnz{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    border-radius: 50%;
+    height: auto;
+    transition: 2s;
+
+}
+
+.btn, .btnclose{
+    background-color: white;
+    color: black;
+    font-size: 45px;
+    padding: 5px;
+    border: none;
+    width: 50%;
+    height: 130px;
+    border-radius: 10px;
+    box-shadow: 5px 10px 10px black;
+    transition: .5s;
+    margin-left: 12px;
+    margin-top: 20px;
+}
+
+.btn:hover{
+    box-shadow: 0px 0px 0px;
+}
+
+.menuitem{
+    height: 5px;
+    width: 100%;
+    color: black;
+   
+    font-size: 60px;
+    position:absolute;
+    top: 50%;
+    left: -100%;
+    transition: 1.5s;
+}
+
+#menu1{
+    background-color: #00e787;
+}
+
+#menu2{
+    background-color: #00dbf8;
+}
+
+#menu3{
+    background-color: #123fad;
+}
+
+#menu4{
+    background-color: #4c4b4b;
+}
+
+.content{
+    display: none;
+    transition: 2s;
+    font-size: 20px;
+    padding: 10px;
+}
+    .writings{
+        border : 1px solid rgb(0, 248, 41);
+        border-radius: 65px;
+        background-color: white;
+        padding: 45px;
+        font-style:normal;
+        overflow: auto;
+        text-align: left;
+    }
+    </style>
+</head>
+<body>
+    
+
+<br>
+<br>
+<br>
+
+<div style="text-align:center;">
+
+
+  
+
+    <div style="color: #ff0000;text-align: center;font-size: 45px;padding: 5px; font-style:initial;border: 5px solid white;border-radius: 50px;">
+        Welcome To my Portfolio
+
+    </div>
+</div>
+
+<br>
+<br>
+<br>
+<br>
+
+
+
+
+
+
+
+
+
+
+    <div class="container">
+     
+
+     
+        <div id="btnz">
+                <button class="btn" onclick="var m = document.getElementById('menu1');an(m, 0)">Info</button> <br> <br>
+                <button class="btn" onclick="var m = document.getElementById('menu2');an(m, 1)">Skills</button> <br> <br>
+                <button class="btn" onclick="var m = document.getElementById('menu3');an(m, 2)">Creations</button> <br> <br>
+                <button class="btn" onclick="var m = document.getElementById('menu4');an(m, 3)">More</button>
+           
+        </div>
+   
+
+        <main>
+            <div class="menuitem" id="menu1">
+                <div class="content">
+                   
+                    <img class="picture" src="https://1.bp.blogspot.com/-xgFivEHWlcw/XcbmvhjVR8I/AAAAAAAAB9w/r8oqtpD49JUXDWWY2XfvlvQ7vTeQSIxpwCLcBGAsYHQ/s1600/t.PNG" alt="Profile pic">
+                       
+                    
+                    <div class="writings">
+
+                    
+                       
+                        Md. Nazmul Haque Nahin <br>
+                        Reading Computer Science & Engineering  <br>
+                        Lives in Dhaka, Bangladesh. <br>
+                        <br>
+                        I am an Extreme Dreamer . I love Coding and try to express everything through code. <br>
+                        'Coding' to me is just a  spell to do some magic via machine !!! yeah ! <br>
+
+
+                      
+                    </div>
+                        
+                        <br>
+                        
+                   
+                    <button class="btnclose" onclick="var m = document.getElementById('menu1');cl(m, 0)">Close</button>
+                </div>
+            </div>
+            <div class="menuitem" id="menu2">
+                <div class="content">
+                        
+                    <div class="writings">
+                    Things Which are related to coding , My beloved stuffs . 
+                    
+                    Here are Some Languages That I used so far in my several projects or some of other tasks . 
+                    <br> <br>
+                    C <br>
+                    C++ <br>
+                    html <br> 
+                    css <br> 
+                    java <br> 
+                    java script <br>
+                    <br>
+                   
+                    I know WordPress as well.
+                    I did some projects on wordpress.
+                    I can customize website, edit video,creating intro .
+                    Recently I focused on Android Development .
+                    I found it so interesting .
+                    I have build some Android App and Successfully they are published on Google  Play Store .
+                    I have Completed my basic course for Android Development and already hired for Advanced knowledge and 
+                    internship on Android at Digicon Technology,Bangladesh.
+                    Beside that , I am a competitive programmer . I love problem solving .
+                    Basically I find it more and more interresting to solve real life problem by coding . 
+                    I have the experience to work with online server and work there on wordpress, build any customized website . 
+                    </div>
+                    
+                
+                    <button class="btnclose" onclick="var m = document.getElementById('menu2');cl(m, 1)">Close</button>
+                </div>
+            </div>
+            <div class="menuitem" id="menu3">
+                <div class="content">
+                        
+                        
+                    <div class="writings">
+                    
+                        Well , I have build some projects on wordpress which are on local server , So I can't give here those links. <br>
+                        Recently I published  App on  Google Play Store . <br>
+                        This is my account <a style="color: blue;" href="https://play.google.com/store/apps/developer?id=Nahin+thE+Coder">link</a>
+                        <br>
+                        
+
+                    </div>
+
+
+
+                    <button class="btnclose" onclick="var m = document.getElementById('menu3');cl(m, 2)">Close</button>
+                </div>
+            </div>
+            <div class="menuitem" id="menu4">
+                <div class="content">
+
+                        <div class="writings">
+                            Whose woods these are I think I know. <br>
+                            His house is in the village though;   <br>
+                            He will not see me stopping here   <br>
+                            To watch his woods fill up with snow.  <br><br> 
+                            
+                            My little horse must think it queer   <br>
+                            To stop without a farmhouse near   <br>
+                            Between the woods and frozen lake   <br>
+                            The darkest evening of the year.   <br><br>
+                            
+                            He gives his harness bells a shake   <br>
+                            To ask if there is some mistake.   <br>
+                            The only other sound’s the sweep   <br>
+                            Of easy wind and downy flake.   <br><br>
+                            
+                            The woods are lovely, dark and deep,   <br><br>
+                            But I have promises to keep,   <br>
+                            And miles to go before I sleep,   <br>
+                            And miles to go before I sleep. <br>
+                     
+                    </div>
+
+                    <button class="btnclose" onclick="var m = document.getElementById('menu4');cl(m, 3)">Close</button>
+
+                </div>
+            </div>
+
+
+
+         
+        </main>
+    </div>
+    
+
+
+
+
+
+
+<script>
+
+
+function an(element, contentC){
+    var btn = document.getElementById("btnz");
+    btn.style.left = "-100%";
+    var b = document.getElementsByClassName('btn');
+    for(i = 0; i < 4; i++)
+    {
+        b[i].disabled = true;
+    }
+    element.style.left = "0";
+    setTimeout(function(){
+        element.style.top = "0"; 
+        element.style.height = "100vh";
+    }, 1500);
+    setTimeout(function(){
+        document.getElementsByClassName('content')[contentC].style.display = "block";
+    }, 2500);
+}
+
+function cl(element, contentC){
+    element.style.top = "50%"; 
+    element.style.height = "1vh";
+    setTimeout(function(){
+        element.style.left = "-100%";
+    }, 1500);
+    setTimeout(function(){
+        var btn = document.getElementById("btnz");
+        btn.style.left = "0";
+        var b = document.getElementsByClassName('btn');
+    for(i = 0; i < 4; i++)
+    {
+        b[i].disabled = false;
+    }
+    }, 1500);
+    document.getElementsByClassName('content')[contentC].style.display = "none";
+}
+
+
+
+</script>
+
+
+
+</body>
+</html>
